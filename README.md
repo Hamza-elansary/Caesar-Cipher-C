@@ -12,12 +12,16 @@
     - Preserves all other symbols 
 
 ## Properties of functions
+
 `void   ROT13(char *ROT, int N)` 
 - The purpose of this function is to translate using key 13; this key is the same as the encryption and decryption key because it is in the middle.
+
 `void    Encryption(char *ROTN, int N)`
 - The purpose of this is encryption using a key, so that the original character is passed by the amount of the key.
+
 `void    Decryption(char *ROTN, int N)`
 - The purpose of this function is to decrypt the data using the key.
+
 `int main(int argc, char **argv)`
 - The main function's purpose is to control the program's inputs and outputs.
 
